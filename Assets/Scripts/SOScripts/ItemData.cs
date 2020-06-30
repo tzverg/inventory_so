@@ -8,7 +8,7 @@ public enum ItemType
     Scroll
 }
 
-[CreateAssetMenu]
+[CreateAssetMenu(fileName = "New itemData", menuName = "Item Data", order = 51)]
 public class ItemData : ScriptableObject
 {
     public string itemName;
